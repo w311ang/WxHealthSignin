@@ -8,7 +8,7 @@ from wechaty.user import Message, Room
 
 import os
 
-realname='王博文'
+realname=os.getenv('SIGNIN_REALNAME')
 
 os.environ['NO_PROXY'] = 'webpush.wx.qq.com'
 
