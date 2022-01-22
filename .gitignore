@@ -1,0 +1,6 @@
+logs
+*.log
+*.bak
+daemon.py
+signined.txt
+config.ps1
